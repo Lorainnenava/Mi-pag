@@ -1,0 +1,139 @@
+*
+{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: "Quitsand", sans-serif;
+}
+.contenedor
+{
+    padding: 40px 0px;
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+.titulo
+{
+    color: rgb(173, 28, 240);
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+/*header*/
+header
+{
+    width: 100%;
+    height: 600px;
+    background: #03001e;
+      /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+      /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav
+{
+    text-align:right;
+    padding: 30px 50px 0px 0px;
+}
+nav > a 
+{
+    color: white;
+    font-size: 25px;
+    padding: 40px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.text-header
+{
+    display:flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+    color: white;
+}
+.wave
+{
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+}
+.contenedor
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagen-about-us
+{
+    width: 48%;
+    padding: 0px 50px;
+}
+.contenedor-text
+{
+    width: 48%;
+}
+.contenedor-text
+{
+    margin-bottom: 15px;
+}
+.contenedor-text h3 span
+{
+    background: #4d0686;
+    color:#fdeff9;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width:30px;
+    height:30px;
+    padding: 5px;
+    box-shadow: 0 o 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+.contenedor-text p
+{
+    padding: 0 0 40px 20px;
+    font-weight: 300px;
+    text-align: content;
+}
+.portafolio
+{
+    width: 100%;
+    height: 10%;
+    background: #f2f2f2;
+    justify-content: center;
+    
+}
+.galeria-port
+{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width:24%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
